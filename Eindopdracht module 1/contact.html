@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rijsgijs</title>
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="titel-website-bestemmingen">Contact</h1>
+        </header>
+
+        <nav>
+            <p class="link-homepage"><a href="./index.html">terug naar homepage</a></p>
+        </nav>
+
+        <main class="background-pages">
+            <form name="contact" method="POST" data-netlify="true">
+
+                <p><label>Naam: <input type="text" name="naam" /></label></p>
+
+                <p><label>Email: <input type="email" name="email" id="email" required /></label></p>
+            
+                <p><label>Telefoon: <input type="tel" name="telefoon" id="phone" /></label></p>
+
+                <p><label for="man">Man</label>
+                    <input type="radio" name="gender" id="male"/>
+                    <label for="female">Vrouw</label>
+                    <input type="radio" name="gender" id="female" /></p>
+
+                <p> Onderwerp:
+                    <label>Reisverhaal</label>
+                    <input type="checkbox" name="Reisverhaal" id="Reisverhaal"/>
+                    <label>Tips</label>
+                    <input type="checkbox" name="Tips" id="Tips"/>
+                    <label for="Bio"></label></p>
+                  
+                <p> <textarea id="bio" name="bio">
+                        tekst
+                    </textarea></p>
+
+                <p><label>Bestand uploaden: <input id="file" type="file" name="bestand"/></label></p>
+
+                <p><button type="submit">submit</button></p>  
+            </form>
+        </main>
+
+    </body>
+</html>

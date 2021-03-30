@@ -1,0 +1,255 @@
+body {
+    background-image:url(./Afbeeldingen/IMG_20190410_223748.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.parent {
+    display: grid;
+    height: 2000px;
+    grid-template-columns: 10px 1fr 10px;
+    grid-template-rows: 600px 100px 900px 900px 400px;
+    grid-template-areas:
+    ". h ."
+    ". n ."
+    ". m ."
+    ". a ."
+    ". f .";
+}
+
+header,
+main,
+nav,
+aside,
+footer {
+    margin: 10px;
+}
+
+header {
+    grid-area: h;
+    background-color:transparent;
+}
+nav {
+    grid-area: n;
+    background-color: transparent;
+}
+main {
+    grid-area: m;
+    background-color: white;
+}
+aside {
+    grid-area: a;
+    background-color: white;
+}
+footer {
+    grid-area: f;
+    background-color: white;
+}
+
+
+.titel-website {
+    font-family: comic;
+    font-size: 200px;
+    padding-top: 100px;
+}  
+
+.nav-links-index li {
+    display: inline;
+    font-family: fantasy;
+    font-size: 30px;
+    padding-left: 100px;
+}
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+    text-align: initial;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+main {
+    background-image: url(./Afbeeldingen/IMG_20180328_120225.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 20px solid white;
+}
+.main-paragraaf {
+    font-family: fantasy;
+    font-size: 500rem;
+    padding-top: 350px;
+    padding-left: 350px;
+}
+
+
+aside {
+    background-image: url(./Afbeeldingen/IMG_20170214_134601.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 20px solid white;
+}
+.aside-paragraaf {
+    font-family: fantasy;
+    font-size: 50px;
+    padding-top: 350px;
+    padding-left: 350px;
+}
+
+
+footer {
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.background-pages {
+    background-color: white;
+    background-image: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.link-homepage {
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+    text-align: initial;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+
+  .link-homepage-overmij {
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+    text-align: initial;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+
+  .titel-website-bestemmingen {
+    font-family: comic;
+    font-size: 150px;
+    padding-top: 200px;
+}  
+.bestemmingen {
+    width: 600px;
+    font-family: fantasy;
+    font-size: 50px;
+}
+.flexbox-container {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+@media (min-width: 1024px) {
+
+    body {
+        background-image:url(./Afbeeldingen/IMG_20190410_223748.jpg);
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+    
+    .parent {
+        display: grid;
+        height: 2000px;
+        grid-template-columns: 1fr 600px 600px 1fr;
+        grid-template-rows: 700px 80px 600px 400px;
+        grid-template-areas:
+        ". h h ."
+        ". n n ."
+        ". m a ."
+        ". f f .";
+    }
+
+    }    
+    .titel-website {
+        font-family: comic;
+        font-size: 200px;
+        padding-top: 200px;
+    }  
+
+    .main-paragraaf {
+        font-family: fantasy;
+        font-size: 40px;
+        padding-top: 300px;
+        padding-left:250px;
+    }
+    .aside-paragraaf {
+    font-family: fantasy;
+    font-size: 40px;
+    padding-top: 320px;
+    padding-left: 220px;
+    }
+
+
+    .link-homepage {
+        font-family: fantasy;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    a:link {
+        text-decoration: none;
+      }
+      a:visited {
+        text-decoration: none;
+        color: black;
+        text-align: initial;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+
+
+    .link-homepage-overmij {
+        font-family: fantasy;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    a:link {
+        text-decoration: none;
+      }
+      a:visited {
+        text-decoration: none;
+        color: black;
+        text-align: initial;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+
+      .background-pages {
+        background-color: white;
+        background-image: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
